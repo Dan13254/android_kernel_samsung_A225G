@@ -1,0 +1,3 @@
+[submodule "kernel/su"]
+	path = kernel/su
+	url = https://github.com/tiann/KernelSU
