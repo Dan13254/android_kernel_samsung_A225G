@@ -10,7 +10,7 @@
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 # GNU General Public License for more details.
 #
-
+SHELL := /bin/bash
 subdir-ccflags-y += -DMTK_VPU_KERNEL
 subdir-ccflags-y += -DCCU_AF_ENABLE
 
