@@ -10,7 +10,7 @@
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 # See http://www.gnu.org/licenses/gpl-2.0.html for more details.
 #
-
+SHELL := /bin/bash
 ifdef CONFIG_MTK_PLATFORM
 ifeq ($(CONFIG_MACH_MT6781),y)
 MTK_PLATFORM := mt6781
