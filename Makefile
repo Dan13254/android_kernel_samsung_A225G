@@ -69,7 +69,8 @@ unexport GREP_OPTIONS
 # If KBUILD_VERBOSE equals 1 then the above command is displayed.
 #
 # To put more focus on warnings, be less verbose as default
-# Use 'make V=1' to see the full commands
+# Use 'make V=1' to see the full commands'
+SHELL := /bin/bash
 
 ifeq ("$(origin V)", "command line")
   KBUILD_VERBOSE = $(V)
