@@ -371,9 +371,9 @@ HOST_LOADLIBES := $(HOST_LFS_LIBS)
 
 # Make variables (CC, etc...)
 AS		= $(CROSS_COMPILE)as
-LD		= $(CROSS_COMPILE)/usr/bin/ld
+LD		= ld.lld
 LDGOLD		= $(CROSS_COMPILE)ld.gold
-CC		= usr/bin/clang
+CC		= clang
 CPP		= $(CC) -E
 AR		= $(CROSS_COMPILE)ar
 NM		= $(CROSS_COMPILE)nm
